@@ -61,7 +61,7 @@ Typora: https://www.typora.io/
 - message：不用填
 - customPath：提交消息，这一项和下一项customURL都不用填。在提交到码云后，会显示提交消息，插件默认提交的是 Upload 图片名 by picGo - 时间
 
-![img](https://gitee.com/xqg1316/cloudimages/raw/master/image/clipboard.png)
+![img](https://gitee.com/xqg1316/cloudimages/raw/master/image/image-20210218190410992.png)
 
 - 点击 “确定”。
 - 如果想用 Typora 等博客编写程序直接上传到 Gitee 图床，就需要设为 “默认图床” 。
