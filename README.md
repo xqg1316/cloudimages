@@ -49,7 +49,7 @@ Typora: https://www.typora.io/
 
 ### 2.5. 账号验证，按照提示输入密码; 私人令牌生成成功，点击复制
 
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+![img](https://gitee.com/xqg1316/cloudimages/raw/master/image/image-20210218190842462.png)
 
 ### 2.6. 配置PicGo，点击图床设置——Gitee图床，进行配置
 
