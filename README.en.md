@@ -1,36 +1,89 @@
 # cloudimages
 
-#### Description
-{**When you're done, you can delete the content in this README and update the file with details for others getting started with your repository**}
+# PciGo + Typora实现上传图片到Gitee
 
-#### Software Architecture
-Software architecture description
+## **1. 下载PciGo+Typora**
 
-#### Installation
+PciGo开源地址: https://github.com/Molunerfinn/PicGo
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+PciGo下载地址: https://github.com/Molunerfinn/PicGo/releases
 
-#### Instructions
+Typora: https://www.typora.io/
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+程序员应该都了解 **Typora** 是专注于编写 Markdown 格式的编辑软件，使用方便，支持多种格式导出。
 
-#### Contribution
+**PicGo** 是一款免费的图床管理应用，支持拖拽上传，剪切板上传等方式。你可以用它快捷地将图片上传到图床并获得网络链接。
 
-1.  Fork the repository
-2.  Create Feat_xxx branch
-3.  Commit your code
-4.  Create Pull Request
+注意：请不要把 PicGo 安装到 C 盘 Program Files 下。
 
+## **2. 配置 PicGo (CDN 加速)**
 
-#### Gitee Feature
+- [**github图床配置**](https://mp.weixin.qq.com/s?__biz=MzI3NjQyMzI2Ng==&mid=2247488356&idx=1&sn=6bb64cf8a7055fa1aabcf0876f5baa19&chksm=eb74e469dc036d7fb13d49a7d6dd9e929e3d344ac2ff6b27827af960505b69149d6ba5c1961a&mpshare=1&scene=24&srcid=0131cUJo6gsfR6shXmwrgN5g&sharer_sharetime=1612076631883&sharer_shareid=baffa657065a4a928bb14a038bc2b5d2#rd)
+- [**gitee图床配置**](https://www.cnblogs.com/geq2020/p/12506466.html)
 
-1.  You can use Readme\_XXX.md to support different languages, such as Readme\_en.md, Readme\_zh.md
-2.  Gitee blog [blog.gitee.com](https://blog.gitee.com)
-3.  Explore open source project [https://gitee.com/explore](https://gitee.com/explore)
-4.  The most valuable open source project [GVP](https://gitee.com/gvp)
-5.  The manual of Gitee [https://gitee.com/help](https://gitee.com/help)
-6.  The most popular members  [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+这里使用 github/gitee 搭建的免费图床
+
+常见问题:
+
+1. **没有图床设置中没有gitee**
+
+- 这里注意一下，必须要先安装[**node.js**](https://link.zhihu.com/?target=https%3A//nodejs.org/en/)才能安装插件，没装的自己装一下，然后重启就行。
+
+![img](https://gitee.com/xqg1316/cloudimages/raw/master/image/clipboard.png)
+
+### 2.1. 建立gitee（码云）图床仓库
+
+![img](https://gitee.com/xqg1316/cloudimages/raw/master/image/clipboard.png)
+
+### 2.2. 配置PicGo需要码云的token(私人令牌)，点击设置
+
+![img](https://gitee.com/xqg1316/cloudimages/raw/master/image/clipboard.png)
+
+### 2.3. 点击左下角的私人令牌，然后点击新建
+
+![img](https://gitee.com/xqg1316/cloudimages/raw/master/image/clipboard.png)
+
+### 2.4. 按照下图配置，点击提交
+
+![img](https://gitee.com/xqg1316/cloudimages/raw/master/image/clipboard.png)
+
+### 2.5. 账号验证，按照提示输入密码; 私人令牌生成成功，点击复制
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+### 2.6. 配置PicGo，点击图床设置——Gitee图床，进行配置
+
+- owner：所有者，写上你的码云账号名
+
+- repo：仓库名称，刚刚新建的图床仓库名称, 一般写(gitee的地址省略): xqg1316/cloudimages
+- path：图片存储根路径，自己新建即可, 一般写: img
+- token：填入刚刚复制的码云的私人令牌
+- message：不用填
+- customPath：提交消息，这一项和下一项customURL都不用填。在提交到码云后，会显示提交消息，插件默认提交的是 Upload 图片名 by picGo - 时间
+
+![img](https://gitee.com/xqg1316/cloudimages/raw/master/image/clipboard.png)
+
+- 点击 “确定”。
+- 如果想用 Typora 等博客编写程序直接上传到 Gitee 图床，就需要设为 “默认图床” 。
+
+## **3. 设置 Typora**
+
+### 3.1. 打开Typora后，点击菜单栏 -> 文件 -> 偏好设置
+
+1）插入图片时...下边的选择框内选择上传图片
+
+2）勾选上“对本地位置的图片应用上述规则”
+
+3）上传服务选择PicGo(app)
+
+4）将PicGo路径项设置为本地PicGo的安装路径
+
+![img](D:\AppFiles\Youdao\xqg1316@163.com\8d0f8ac45f574c78b05e75a508c6d721\clipboard.png)
+
+![img](D:\AppFiles\Youdao\xqg1316@163.com\54e156d51e9d4ed6bb5ecdc011fa7b20\clipboard.png)
+
+### 3.2. 点击PicGo界面左侧的PicGo设置->设置Server，并按下图设置（默认已设置）
+
+![img](D:\AppFiles\Youdao\xqg1316@163.com\7db9caf70c3445b5a0a7ac8e38472d42\clipboard.png)
+
+![img](D:\AppFiles\Youdao\xqg1316@163.com\65d49624e8644509821d6d368ae6466f\clipboard.png)
