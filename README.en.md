@@ -29,27 +29,27 @@ Typora: https://www.typora.io/
 
 - 这里注意一下，必须要先安装[**node.js**](https://link.zhihu.com/?target=https%3A//nodejs.org/en/)才能安装插件，没装的自己装一下，然后重启就行。
 
-![img](https://gitee.com/xqg1316/cloudimages/raw/master/image/clipboard.png)
+![img](https://gitee.com/xqg1316/cloudimages/raw/master/image/image-20210218191007897.png)
 
 ### 2.1. 建立gitee（码云）图床仓库
 
-![img](https://gitee.com/xqg1316/cloudimages/raw/master/image/clipboard.png)
+![img](https://gitee.com/xqg1316/cloudimages/raw/master/image/image-20210218191126814.png)
 
 ### 2.2. 配置PicGo需要码云的token(私人令牌)，点击设置
 
-![img](https://gitee.com/xqg1316/cloudimages/raw/master/image/clipboard.png)
+![img](https://gitee.com/xqg1316/cloudimages/raw/master/image/image-20210218191154291.png)
 
 ### 2.3. 点击左下角的私人令牌，然后点击新建
 
-![img](https://gitee.com/xqg1316/cloudimages/raw/master/image/clipboard.png)
+![img](https://gitee.com/xqg1316/cloudimages/raw/master/image/image-20210218191213053.png)
 
 ### 2.4. 按照下图配置，点击提交
 
-![img](https://gitee.com/xqg1316/cloudimages/raw/master/image/clipboard.png)
+![img](https://gitee.com/xqg1316/cloudimages/raw/master/image/image-20210218191236106.png)
 
 ### 2.5. 账号验证，按照提示输入密码; 私人令牌生成成功，点击复制
 
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+![img](https://gitee.com/xqg1316/cloudimages/raw/master/image/image-20210218190842462.png)
 
 ### 2.6. 配置PicGo，点击图床设置——Gitee图床，进行配置
 
@@ -61,7 +61,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 - message：不用填
 - customPath：提交消息，这一项和下一项customURL都不用填。在提交到码云后，会显示提交消息，插件默认提交的是 Upload 图片名 by picGo - 时间
 
-![img](https://gitee.com/xqg1316/cloudimages/raw/master/image/clipboard.png)
+![img](https://gitee.com/xqg1316/cloudimages/raw/master/image/image-20210218190410992.png)
 
 - 点击 “确定”。
 - 如果想用 Typora 等博客编写程序直接上传到 Gitee 图床，就需要设为 “默认图床” 。
@@ -78,12 +78,12 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 4）将PicGo路径项设置为本地PicGo的安装路径
 
-![img](D:\AppFiles\Youdao\xqg1316@163.com\8d0f8ac45f574c78b05e75a508c6d721\clipboard.png)
+![img](https://gitee.com/xqg1316/cloudimages/raw/master/image/image-20210218190410991.png)
 
-![img](D:\AppFiles\Youdao\xqg1316@163.com\54e156d51e9d4ed6bb5ecdc011fa7b20\clipboard.png)
+![img](https://gitee.com/xqg1316/cloudimages/raw/master/image/image-20210218190438267.png)
 
 ### 3.2. 点击PicGo界面左侧的PicGo设置->设置Server，并按下图设置（默认已设置）
 
-![img](D:\AppFiles\Youdao\xqg1316@163.com\7db9caf70c3445b5a0a7ac8e38472d42\clipboard.png)
+![img](https://gitee.com/xqg1316/cloudimages/raw/master/image/image-20210218190515658.png)
 
-![img](D:\AppFiles\Youdao\xqg1316@163.com\65d49624e8644509821d6d368ae6466f\clipboard.png)
+![img](https://gitee.com/xqg1316/cloudimages/raw/master/image/image-20210218190531955.png)
