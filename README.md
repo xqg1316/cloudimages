@@ -33,19 +33,19 @@ Typora: https://www.typora.io/
 
 ### 2.1. 建立gitee（码云）图床仓库
 
-![img](https://gitee.com/xqg1316/cloudimages/raw/master/image/clipboard.png)
+![img](https://gitee.com/xqg1316/cloudimages/raw/master/image/image-20210218191126814.png)
 
 ### 2.2. 配置PicGo需要码云的token(私人令牌)，点击设置
 
-![img](https://gitee.com/xqg1316/cloudimages/raw/master/image/clipboard.png)
+![img](https://gitee.com/xqg1316/cloudimages/raw/master/image/image-20210218191154291.png)
 
 ### 2.3. 点击左下角的私人令牌，然后点击新建
 
-![img](https://gitee.com/xqg1316/cloudimages/raw/master/image/clipboard.png)
+![img](https://gitee.com/xqg1316/cloudimages/raw/master/image/image-20210218191213053.png)
 
 ### 2.4. 按照下图配置，点击提交
 
-![img](https://gitee.com/xqg1316/cloudimages/raw/master/image/clipboard.png)
+![img](https://gitee.com/xqg1316/cloudimages/raw/master/image/image-20210218191236106.png)
 
 ### 2.5. 账号验证，按照提示输入密码; 私人令牌生成成功，点击复制
 
