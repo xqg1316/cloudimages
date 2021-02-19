@@ -25,7 +25,7 @@ Typora: https://www.typora.io/
 
 常见问题:
 
-1. **没有图床设置中没有gitee**
+1. **设置中没有gitee图床**
 
 - 这里注意一下，必须要先安装[**node.js**](https://nodejs.org/en/)才能安装插件，没装的自己装一下，然后重启就行。
 
