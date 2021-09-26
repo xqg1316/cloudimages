@@ -1,9 +1,5 @@
 # cloudimages
 
-[TOC]
-
-------
-
 # PciGo + Typora实现上传图片到Gitee
 
 ## **1. 下载PciGo+Typora**
