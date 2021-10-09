@@ -2,6 +2,8 @@
 
 # PciGo + Typora实现上传图片到Gitee
 
+[TOC]
+
 ## **1. 下载PciGo+Typora**
 
 PciGo开源地址: https://github.com/Molunerfinn/PicGo
