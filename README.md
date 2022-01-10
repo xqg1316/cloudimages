@@ -55,8 +55,8 @@ Typora: https://www.typora.io/
 
 - owner：所有者，写上你的码云账号名
 
-- repo：仓库名称，刚刚新建的图床仓库名称, 一般写(gitee的地址省略): xqg1316/cloudimages
-- path：图片存储根路径，自己新建即可, 一般写: img
+- repo：仓库名称，刚刚新建的图床仓库名称, 一般写(gitee的地址省略): ==xqg1316/cloudimages==
+- path：图片存储根路径，自己新建即可, 一般写: ==image/==
 - token：填入刚刚复制的码云的私人令牌
 - message：不用填
 - customPath：提交消息，这一项和下一项customURL都不用填。在提交到码云后，会显示提交消息，插件默认提交的是 Upload 图片名 by picGo - 时间
